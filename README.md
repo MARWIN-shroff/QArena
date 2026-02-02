@@ -1,6 +1,6 @@
-# 🚀 TestPilot AI
+# 🚀 QArena
 
-**TestPilot AI** is an AI-powered end-to-end unit testing agent designed to automate test generation, execution, and result analysis for modern software applications.
+**QArena** is an AI-powered end-to-end unit testing agent designed to automate test generation, execution, and result analysis for modern software applications.
 
 The goal of this project is to reduce the manual effort involved in writing and maintaining end-to-end tests by leveraging AI-driven reasoning and automation.
 
@@ -34,7 +34,7 @@ The goal of this project is to reduce the manual effort involved in writing and 
 ---
 
 ## 📁 Project Structure
-testpilot-ai/
+QArena/
 ├── agent/ # Core AI testing logic
 ├── ui/ # Streamlit UI
 ├── tests/ # Sample tests
@@ -66,6 +66,7 @@ Feel free to open issues or submit pull requests.
 ## 📜 License
 
 MIT License
+
 
 
 
