@@ -34,12 +34,22 @@ The goal of this project is to reduce the manual effort involved in writing and 
 ---
 
 ## 📁 Project Structure
-QArena/
-├── agent/ # Core AI testing logic
-├── ui/ # Streamlit UI
-├── tests/ # Sample tests
-├── requirements.txt
-└── README.md
+qarena/
+│
+├── agent/
+│ ├── test_generator.py # AI logic to generate test cases
+│ ├── test_executor.py # Executes generated tests
+│ └── result_analyzer.py # Analyzes test outcomes and failures
+│
+├── ui/
+│ └── app.py # Streamlit-based user interface
+│
+├── tests/
+│ └── sample_app_tests.py # Sample / demo tests
+│
+├── requirements.txt # Python dependencies
+├── README.md
+└── .gitignore
 
 
 ---
