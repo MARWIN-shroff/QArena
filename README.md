@@ -34,25 +34,26 @@ The goal of this project is to reduce the manual effort involved in writing and 
 ---
 
 ## 📁 Project Structure
+
+
+```
 qarena/
 │
 ├── agent/
-│ ├── test_generator.py # AI logic to generate test cases
-│ ├── test_executor.py # Executes generated tests
-│ └── result_analyzer.py # Analyzes test outcomes and failures
+│   ├── test_generator.py    # AI logic to generate test cases
+│   ├── test_executor.py     # Executes generated tests
+│   └── result_analyzer.py   # Analyzes test outcomes and failures
 │
 ├── ui/
-│ └── app.py # Streamlit-based user interface
+│   └── app.py               # Streamlit-based user interface
 │
 ├── tests/
-│ └── sample_app_tests.py # Sample / demo tests
+│   └── sample_app_tests.py  # Sample / demo tests
 │
-├── requirements.txt # Python dependencies
+├── requirements.txt         # Python dependencies
 ├── README.md
 └── .gitignore
-
-
----
+```
 
 ## 🚧 Project Status
 
