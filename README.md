@@ -34,4 +34,38 @@ The goal of this project is to reduce the manual effort involved in writing and 
 ---
 
 ## 📁 Project Structure
+testpilot-ai/
+├── agent/ # Core AI testing logic
+├── ui/ # Streamlit UI
+├── tests/ # Sample tests
+├── requirements.txt
+└── README.md
+
+
+---
+
+## 🚧 Project Status
+
+🔨 **In Active Development**
+
+Planned improvements:
+- Smarter test generation
+- Failure root-cause detection
+- CI/CD integration
+- Multi-language support
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Feel free to open issues or submit pull requests.
+
+---
+
+## 📜 License
+
+MIT License
+
+
 
