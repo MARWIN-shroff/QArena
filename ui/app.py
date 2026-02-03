@@ -76,7 +76,17 @@ if st.button("🚀 Run QArena"):
             try:
                 analysis = analyze_results(output, error)
                 st.success("Result analysis completed.")
-                st.info(analysis)
+                st.markdown(f"""
+                **Status:** {analysis['status']}  
+                **Failure Type:** {analysis['classification']}  
+
+                **Root Cause:**  
+                {analysis['root_cause']}  
+
+                **Suggested Action:**  
+                {analysis['suggestion']}
+                """)
+
             except Exception as e:
                 st.error(f"Result analysis failed: {e}")
                 st.stop()
