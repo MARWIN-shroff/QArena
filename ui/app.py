@@ -62,7 +62,7 @@ if st.button("🚀 Run QArena"):
             # -------- Step 2: Test Execution --------
             st.markdown("### 🧪 Test Executor Agent")
             try:
-                output, error = execute_tests()
+                output, error = execute_tests(project_path)
                 st.success("Test execution completed.")
                 st.text_area("PyTest Output", output, height=200)
                 if error:
