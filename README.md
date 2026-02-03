@@ -22,6 +22,22 @@ User / CI
    ▼
 UI / Logs / CI Feedback
 ```
+## 🔁 End-to-End Flow (Mental Model)
+
+```
+User clicks button
+        ↓
+Streamlit UI triggers agent
+        ↓
+Test Generator creates tests
+        ↓
+Test Executor runs pytest
+        ↓
+Result Analyzer explains output
+        ↓
+UI displays intelligence
+
+```
 
 ## ✨ Features
 
