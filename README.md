@@ -6,6 +6,23 @@ The goal of this project is to reduce the manual effort involved in writing and 
 
 ---
 
+## Architecture Diagram
+```
+User / CI
+   │
+   ▼
+[Test Generator Agent]
+   │   → creates test cases
+   ▼
+[Test Executor Agent]
+   │   → runs pytest
+   ▼
+[Result Analyzer Agent]
+   │   → explains failures
+   ▼
+UI / Logs / CI Feedback
+```
+
 ## ✨ Features
 
 - 🧠 **Automated Test Generation**
