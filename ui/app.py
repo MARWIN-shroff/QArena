@@ -90,8 +90,10 @@ if st.button("🚀 Run QArena"):
             except Exception as e:
                 st.error(f"Result analysis failed: {e}")
                 st.stop()
+            
+
 
 st.divider()
-
 # -------------------- Footer --------------------
 st.caption("QArena • Autonomous Testing Agents • Zero-Cost AI Infrastructure")
+
